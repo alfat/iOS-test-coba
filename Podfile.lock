@@ -1,0 +1,44 @@
+PODS:
+  - Alamofire (5.4.2)
+  - GradientLoadingBar (2.1.0):
+    - LightweightObservable (~> 2.1)
+  - LightweightObservable (2.1.2)
+  - SDWebImage (5.11.0):
+    - SDWebImage/Core (= 5.11.0)
+  - SDWebImage/Core (5.11.0)
+  - SQLite.swift (0.12.2):
+    - SQLite.swift/standard (= 0.12.2)
+  - SQLite.swift/standard (0.12.2)
+  - SVProgressHUD (2.2.5)
+  - SwiftyJSON (4.3.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - GradientLoadingBar
+  - SDWebImage
+  - SQLite.swift (~> 0.12.0)
+  - SVProgressHUD
+  - SwiftyJSON (~> 4.0)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - GradientLoadingBar
+    - LightweightObservable
+    - SDWebImage
+    - SQLite.swift
+    - SVProgressHUD
+    - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: bfbc4c2fe5909b1d94fb4ef2277c6b3727ef5dae
+  GradientLoadingBar: 9992888de03a77c1e9364c087aefa1d9c3860ef7
+  LightweightObservable: c5ac85423a5edbed9a920b4d5c7b8f94ab3688c4
+  SDWebImage: 7acbb57630ac7db4a495547fb73916ff3e432f6b
+  SQLite.swift: d2b4642190917051ce6bd1d49aab565fe794eea3
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  SwiftyJSON: 6faa0040f8b59dead0ee07436cbf76b73c08fd08
+
+PODFILE CHECKSUM: bd98d7cd198ec5442dc6bef07449e207a57a7606
+
+COCOAPODS: 1.10.1

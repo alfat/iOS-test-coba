@@ -1,0 +1,6 @@
+framework module Pods_coba {
+  umbrella header "Pods-coba-umbrella.h"
+
+  export *
+  module * { export * }
+}

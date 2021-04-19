@@ -3,19 +3,37 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		562A9DA9148A87462E3071E8 /* Pods_coba.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6291CAB7288E2B72B4A67429 /* Pods_coba.framework */; };
+		CE14195A262B1528008572B5 /* HeroDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE141959262B1528008572B5 /* HeroDetailViewController.swift */; };
+		CE5242AA262C492C008A7F56 /* Master.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5242A9262C492C008A7F56 /* Master.swift */; };
+		CE5242C9262C704E008A7F56 /* SQLiteDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5242C8262C704E008A7F56 /* SQLiteDatabase.swift */; };
+		CE5242CC262C708B008A7F56 /* SQLiteCommands.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5242CB262C708B008A7F56 /* SQLiteCommands.swift */; };
+		CE5242CF262C79B2008A7F56 /* MasterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5242CE262C79B2008A7F56 /* MasterViewModel.swift */; };
+		CE5242DA262C7B00008A7F56 /* MasterScreenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5242D9262C7B00008A7F56 /* MasterScreenViewModel.swift */; };
 		CE694E822629BE61001475B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE694E812629BE61001475B9 /* AppDelegate.swift */; };
 		CE694E842629BE61001475B9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE694E832629BE61001475B9 /* SceneDelegate.swift */; };
 		CE694E862629BE61001475B9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE694E852629BE61001475B9 /* ViewController.swift */; };
 		CE694E892629BE61001475B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE694E872629BE61001475B9 /* Main.storyboard */; };
 		CE694E8B2629BE63001475B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE694E8A2629BE63001475B9 /* Assets.xcassets */; };
 		CE694E8E2629BE63001475B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE694E8C2629BE63001475B9 /* LaunchScreen.storyboard */; };
+		CEBF23742629DC4C0070D073 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBF23732629DC4C0070D073 /* Service.swift */; };
+		CEBF23962629EA1B0070D073 /* model.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBF23952629EA1B0070D073 /* model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4750E1002CC070E8E1A5F330 /* Pods-coba.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-coba.release.xcconfig"; path = "Target Support Files/Pods-coba/Pods-coba.release.xcconfig"; sourceTree = "<group>"; };
+		6291CAB7288E2B72B4A67429 /* Pods_coba.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_coba.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B67498A5442490E72674A0CC /* Pods-coba.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-coba.debug.xcconfig"; path = "Target Support Files/Pods-coba/Pods-coba.debug.xcconfig"; sourceTree = "<group>"; };
+		CE141959262B1528008572B5 /* HeroDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroDetailViewController.swift; sourceTree = "<group>"; };
+		CE5242A9262C492C008A7F56 /* Master.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Master.swift; sourceTree = "<group>"; };
+		CE5242C8262C704E008A7F56 /* SQLiteDatabase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SQLiteDatabase.swift; sourceTree = "<group>"; };
+		CE5242CB262C708B008A7F56 /* SQLiteCommands.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SQLiteCommands.swift; sourceTree = "<group>"; };
+		CE5242CE262C79B2008A7F56 /* MasterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewModel.swift; sourceTree = "<group>"; };
+		CE5242D9262C7B00008A7F56 /* MasterScreenViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterScreenViewModel.swift; sourceTree = "<group>"; };
 		CE694E7E2629BE61001475B9 /* coba.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = coba.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE694E812629BE61001475B9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE694E832629BE61001475B9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +42,8 @@
 		CE694E8A2629BE63001475B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE694E8D2629BE63001475B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE694E8F2629BE63001475B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEBF23732629DC4C0070D073 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		CEBF23952629EA1B0070D073 /* model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +51,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				562A9DA9148A87462E3071E8 /* Pods_coba.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CE5242C7262C701E008A7F56 /* SQLiteDataSource */ = {
+			isa = PBXGroup;
+			children = (
+				CE5242C8262C704E008A7F56 /* SQLiteDatabase.swift */,
+				CE5242CB262C708B008A7F56 /* SQLiteCommands.swift */,
+			);
+			path = SQLiteDataSource;
+			sourceTree = "<group>";
+		};
 		CE694E752629BE61001475B9 = {
 			isa = PBXGroup;
 			children = (
 				CE694E802629BE61001475B9 /* coba */,
 				CE694E7F2629BE61001475B9 /* Products */,
+				EB8747B5604E4418AC6946A0 /* Pods */,
+				F7EE7F0FEE3BDE8E83B4BA3B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +88,63 @@
 		CE694E802629BE61001475B9 /* coba */ = {
 			isa = PBXGroup;
 			children = (
+				CE694E992629C44A001475B9 /* View */,
+				CE694E982629C440001475B9 /* controler */,
+				CE694E972629C435001475B9 /* Model */,
 				CE694E812629BE61001475B9 /* AppDelegate.swift */,
 				CE694E832629BE61001475B9 /* SceneDelegate.swift */,
-				CE694E852629BE61001475B9 /* ViewController.swift */,
-				CE694E872629BE61001475B9 /* Main.storyboard */,
 				CE694E8A2629BE63001475B9 /* Assets.xcassets */,
 				CE694E8C2629BE63001475B9 /* LaunchScreen.storyboard */,
 				CE694E8F2629BE63001475B9 /* Info.plist */,
 			);
 			path = coba;
+			sourceTree = "<group>";
+		};
+		CE694E972629C435001475B9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CE5242C7262C701E008A7F56 /* SQLiteDataSource */,
+				CEBF23732629DC4C0070D073 /* Service.swift */,
+				CEBF23952629EA1B0070D073 /* model.swift */,
+				CE5242A9262C492C008A7F56 /* Master.swift */,
+				CE5242CE262C79B2008A7F56 /* MasterViewModel.swift */,
+				CE5242D9262C7B00008A7F56 /* MasterScreenViewModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CE694E982629C440001475B9 /* controler */ = {
+			isa = PBXGroup;
+			children = (
+				CE694E852629BE61001475B9 /* ViewController.swift */,
+				CE141959262B1528008572B5 /* HeroDetailViewController.swift */,
+			);
+			path = controler;
+			sourceTree = "<group>";
+		};
+		CE694E992629C44A001475B9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CE694E872629BE61001475B9 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EB8747B5604E4418AC6946A0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B67498A5442490E72674A0CC /* Pods-coba.debug.xcconfig */,
+				4750E1002CC070E8E1A5F330 /* Pods-coba.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F7EE7F0FEE3BDE8E83B4BA3B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6291CAB7288E2B72B4A67429 /* Pods_coba.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +154,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CE694E922629BE63001475B9 /* Build configuration list for PBXNativeTarget "coba" */;
 			buildPhases = (
+				886DE57312845954EA1C0540 /* [CP] Check Pods Manifest.lock */,
 				CE694E7A2629BE61001475B9 /* Sources */,
 				CE694E7B2629BE61001475B9 /* Frameworks */,
 				CE694E7C2629BE61001475B9 /* Resources */,
+				0F0ABB2A9D87B7D0BFF5C89F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,14 +214,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0F0ABB2A9D87B7D0BFF5C89F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-coba/Pods-coba-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-coba/Pods-coba-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-coba/Pods-coba-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		886DE57312845954EA1C0540 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-coba-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CE694E7A2629BE61001475B9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE5242AA262C492C008A7F56 /* Master.swift in Sources */,
 				CE694E862629BE61001475B9 /* ViewController.swift in Sources */,
+				CE5242DA262C7B00008A7F56 /* MasterScreenViewModel.swift in Sources */,
+				CEBF23962629EA1B0070D073 /* model.swift in Sources */,
 				CE694E822629BE61001475B9 /* AppDelegate.swift in Sources */,
+				CE14195A262B1528008572B5 /* HeroDetailViewController.swift in Sources */,
+				CEBF23742629DC4C0070D073 /* Service.swift in Sources */,
+				CE5242CF262C79B2008A7F56 /* MasterViewModel.swift in Sources */,
 				CE694E842629BE61001475B9 /* SceneDelegate.swift in Sources */,
+				CE5242C9262C704E008A7F56 /* SQLiteDatabase.swift in Sources */,
+				CE5242CC262C708B008A7F56 /* SQLiteCommands.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +415,7 @@
 		};
 		CE694E932629BE63001475B9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B67498A5442490E72674A0CC /* Pods-coba.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -302,6 +435,7 @@
 		};
 		CE694E942629BE63001475B9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4750E1002CC070E8E1A5F330 /* Pods-coba.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

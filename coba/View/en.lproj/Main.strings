@@ -1,0 +1,39 @@
+
+/* Class = "UILabel"; text = "Role :"; ObjectID = "33R-Rj-4cR"; */
+"33R-Rj-4cR.text" = "Role :";
+
+/* Class = "UILabel"; text = "Similiar Heroes"; ObjectID = "B4z-bq-cM2"; */
+"B4z-bq-cM2.text" = "Similiar Heroes";
+
+/* Class = "UILabel"; text = "Carry Dureble Nuker Pusher"; ObjectID = "EhR-fT-28Q"; */
+"EhR-fT-28Q.text" = "Carry Dureble Nuker Pusher";
+
+/* Class = "UILabel"; text = "-1.0"; ObjectID = "Ixq-Nv-h1l"; */
+"Ixq-Nv-h1l.text" = "-1.0";
+
+/* Class = "UIViewController"; title = "HeroDetailViewController"; ObjectID = "NIQ-qB-SLT"; */
+"NIQ-qB-SLT.title" = "HeroDetailViewController";
+
+/* Class = "UILabel"; text = "285"; ObjectID = "O4E-dJ-NDO"; */
+"O4E-dJ-NDO.text" = "285";
+
+/* Class = "UILabel"; text = "200"; ObjectID = "Omt-Sk-fgt"; */
+"Omt-Sk-fgt.text" = "200";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "XhB-61-cQN"; */
+"XhB-61-cQN.text" = "Label";
+
+/* Class = "UILabel"; text = "agi"; ObjectID = "Y3o-8h-klp"; */
+"Y3o-8h-klp.text" = "agi";
+
+/* Class = "UILabel"; text = "75"; ObjectID = "a5a-rg-Cny"; */
+"a5a-rg-Cny.text" = "75";
+
+/* Class = "UIButton"; normalTitle = "Title"; ObjectID = "e0n-Zy-jtU"; */
+"e0n-Zy-jtU.normalTitle" = "Title";
+
+/* Class = "UILabel"; text = "23-25"; ObjectID = "oYx-NA-klb"; */
+"oYx-NA-klb.text" = "23-25";
+
+/* Class = "UILabel"; text = "RAZOR"; ObjectID = "xHg-6g-qab"; */
+"xHg-6g-qab.text" = "RAZOR";
